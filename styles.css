@@ -2454,6 +2454,9 @@ details p {
   .pain-need-circle {
     width: 150px;
     height: 150px;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 900;
     font-size: 15px;
   }
 
@@ -2534,7 +2537,7 @@ details p {
   }
 
   .hero-media img {
-    object-position: 92% 20%;
+    object-position: 100% 20%;
   }
 
   .hero-badges {
@@ -2672,8 +2675,20 @@ details p {
     display: none;
   }
 
+  .strength-cta {
+    padding: 24px 20px;
+  }
+
+  .strength-cta p {
+    font-size: clamp(13px, 4vw, 17px);
+    line-height: 1.7;
+  }
+
   .cta-band-btn {
-    padding: 20px 24px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 18px 12px;
     white-space: nowrap;
     font-size: clamp(10px, 3.4vw, 14px);
   }
